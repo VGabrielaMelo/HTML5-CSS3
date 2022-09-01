@@ -1,0 +1,173 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Cabeçalho */
+header {
+    background: #BBBBBB;
+    padding: 20px 0;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px; /* Topo | Direita | Baixo | Esquerda */
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #C78C19;
+    text-decoration: underline;
+}
+
+/* Banner do cabeçalho */
+.banner{
+    width: 100%;
+}
+
+/* Sobre */
+.titulo-principal {
+    text-align: center;
+    font-size: 2em; /* Vai ser 2x maior que o resto do texto independente do tamanho */
+    margin: 1em 1em;
+    clear: left;
+}
+
+.principal {
+	padding: 3em 0;
+	background: #FEFEFE;
+	width: 940px;
+	margin: 0 auto;
+}
+
+.principal p {
+    font-size: 16px;
+    margin: 0 0 1em;
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+    /* Imagem Sobre */
+.fotoSobre {
+    width: 120px;
+    float: left;
+    margin: 0px 20px 20px 0px;
+}
+
+/* Mapa */
+.localizacao {
+    padding: 3em 0;
+    background: linear-gradient(#FEFEFE, #888888);
+}
+
+.localizacao-conteudo {
+    margin: 0 0 0 22%;
+}
+
+.localizacao p {
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+/* Beneficios */
+.beneficios {
+    padding: 3em 0;
+    background: #888888;
+}
+
+.conteudo-beneficios {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.lista-beneficios {
+    width: 40%;
+    margin: 0 0 0 20px;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.banner2 {
+    width: 40%;
+    margin: 0 0 10% 10%;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow: 10px 10px 10px 0 #000000;
+}
+
+.itens {
+    line-height: 1.5;
+}
+
+.itens:first-child {
+    font-weight: bold;
+}
+
+.itens:before {
+    content: "★";
+}
+
+.itens-beneficios:houver {
+    opacity: 0.3;
+}
+
+.video {
+    width: 560px;
+    margin: 2em auto;
+}
+
+/* Responsividade */
+@media screen and (max-width: 480px) {
+	.caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+		width: auto;
+	}
+
+	h1 {
+		text-align: center;
+	}
+
+	nav {
+		position: static;
+	}
+
+	.lista-beneficios, .imagem-beneficios {
+		width: 100%;
+	}
+}
+
+/* Rodapé */
+footer {
+    background: url("./Imagens/bg.jpg");
+    text-align: center;
+    padding: 10px 0;
+}
+
+.rodape {
+    color: #ffffff;
+    font-size: 13px;
+    margin: 20px 0 0 0;
+}

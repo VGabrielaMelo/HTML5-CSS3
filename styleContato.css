@@ -1,0 +1,142 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Fundo do cabeçalho */
+header {
+    background: #BBBBBB;
+    padding: 10px 0;
+}
+
+/* Informações do cabeçalho */
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+/* Estilo do Menu */
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+}
+
+nav a:hover {
+    color:#C78C19;
+    text-decoration: underline;
+}
+
+/* Formulario */
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+main form {
+    margin: 40px 0;
+}
+    /* Quebra de linha do formulario */
+main form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+    /* Tamanho da caixa do input / Configura a área das perguntas*/
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 20px;
+    width: 70%;
+}
+
+    /* Segunda Pergunta */
+.select {
+    margin: 20px 0;
+}
+
+    /* Terceira pergunta */
+.checkbox {
+    margin: 20px 0;
+}
+
+/* Botão */
+.enviar {
+    width: 20%;
+    padding: 15px 0;
+
+    font-size: 15px;
+    font-weight: bold;
+
+    border: none;
+    border-radius: 10px;
+
+    background: orange;
+    color: white;
+
+    transition: 1s background;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background: green;
+    transform: scale(1.1);
+    /* transform: rotate(70deg); */
+}
+
+/* Tabela */
+table {
+    width: 50%;
+    margin: 20px 20px;
+}
+
+thead {
+    background: #BBBBBB;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+td {
+    background: rgb(70, 67, 67);
+    color: #ffffff;
+    text-align: center;
+}
+
+td, th {
+    padding: 40px 1px;
+    border: 2px solid #000000;
+    font-size: 18px;
+    font-style: italic;
+}
+
+/* Conteiner */
+.conteiner-principal {
+    display: flex;
+    justify-content: center;
+}
+
+/* Rodapé */
+footer {
+    background: url("./Imagens/bg.jpg");
+    text-align: center;
+    padding: 10px 0;
+}
+
+.rodape {
+    color: #ffffff;
+    font-size: 13px;
+    margin: 20px 0 0 0;
+}
