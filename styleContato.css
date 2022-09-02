@@ -10,17 +10,22 @@ header {
 
 /* Informações do cabeçalho */
 .caixa {
-    position: relative;
-    width: 940px;
-    margin: 0 auto;
+    /* position: relative;
+    width: 100%;
+    margin: 0 auto; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 /* Estilo do Menu */
-nav {
-    position: absolute;
+/* nav { */
+    /* position: absolute;
     top: 110px;
-    right: 0;
-}
+    right: 0; */
+    /* justify-content: end;
+    background-color: #000000; */
+/* } */
 
 nav li {
     display: inline;
@@ -30,7 +35,7 @@ nav li {
 nav a {
     text-transform: uppercase;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
     color: #000000;
 }
