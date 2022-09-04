@@ -1,0 +1,156 @@
+/* Celular */
+@media only screen and (min-width: 360px) {
+    /* body {
+        background-color: aqua;
+    } */
+
+    .caixa {
+        flex-direction: column;
+    }
+
+    nav {
+        padding-top: 1em;
+    }
+    
+    .banner2 {
+        width: 50%;
+        margin: 0;
+    }
+    
+    .conteudo-beneficios {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .lista-beneficios {
+        margin: 15px 0 0 15px;
+    }
+
+    .itens {
+        margin-bottom: 0.5em;
+        font-size: 1em;
+    }
+    
+    .video .responsivo iframe {
+        height: 100%;
+    }
+
+    .localizacao-conteudo .responsivo-mapa iframe {
+        height: 100%;
+    }
+
+    .principal {
+        width: 100%;
+    }
+    
+}
+
+/* Tablet */
+@media only screen and (min-width: 600px) {   
+    /* body {
+        background-color: rebeccapurple;
+    } */
+
+    .caixa {
+        flex-direction: column;
+    }
+
+    nav {
+        padding-top: 1em;
+    }
+
+    .banner2 {
+        width: 50%;
+        margin: 0;
+    }
+
+    .conteudo-beneficios {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .lista-beneficios {
+        margin: 15px 0 0 15px;
+    }
+
+    .itens {
+        font-size: 1em;
+    }
+
+    .video .responsivo iframe {
+        height: 100%;
+    }
+
+    .localizacao-conteudo .responsivo-mapa iframe {
+        height: 400px;
+    }
+
+    .principal {
+        width: 100%;
+    }     
+}
+
+/* Notebook */
+@media only screen and (min-width: 992px) {   
+    /* body {
+        background-color: black;
+    } */
+
+    .caixa {
+        flex-direction: row;
+    } 
+    
+    .conteudo-beneficios {
+        flex-direction: row;
+        align-items: start;
+    }
+
+    .video .responsivo iframe {
+        height: 100%;
+    }
+
+    .localizacao-conteudo .responsivo-mapa iframe {
+        height: 400px;
+    }
+
+    .itens {
+        font-size: 2em;
+    }
+    
+}
+
+/* Tela grande */
+@media only screen and (min-width: 1200px) {  
+    /* body {
+        background-color: palegreen;
+    }  */
+
+    .caixa {
+        flex-direction: row;
+    }
+
+    .conteudo-beneficios {
+        flex-direction: row;
+        align-items: start;
+    }
+
+    .itens {
+        margin-bottom: 0;
+        font-size: 2em;
+    } 
+    
+    .video .responsivo-video iframe {
+        height: 100%;
+    }
+
+    .localizacao-conteudo .responsivo-mapa iframe {
+        height: 400px;
+    }
+    
+    .principal {
+        width: 940px; 
+    }
+}
+

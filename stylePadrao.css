@@ -1,0 +1,56 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Cabeçalho */
+header {
+    background: #BBBBBB;
+    padding: 20px 0;
+}
+
+/* Informações do cabeçalho */
+.caixa {
+    /* position: relative;
+    width: 100%;
+    margin: 0 auto; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+} */
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px; /* Topo | Direita | Baixo | Esquerda */
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #C78C19;
+    text-decoration: underline;
+}
+
+/* Rodapé */
+footer {
+    background: url("./Imagens/bg.jpg");
+    text-align: center;
+    padding: 10px 0;
+}
+
+.rodape {
+    color: #ffffff;
+    font-size: 13px;
+    margin: 20px 0 0 0;
+}
