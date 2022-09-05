@@ -1,15 +1,20 @@
 .produtos {
-    width: 940px;
+    /* width: 940px; */
     margin: 0 auto;
     padding: 50px 50px;
 }
 
+.produtos nav{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .produtos li {
-    display: inline-block;
+    flex: 1 1 250px;
     text-align: center;
     width: 30%;
     vertical-align: top;
-    margin: 0 1.5%;
+    margin: 0 1.5% 1.5% 0;
     padding: 30px 20px;
     box-sizing: border-box; /* complementa o padding */
 
@@ -21,6 +26,10 @@
     */
     border: 6px double #000000;
     border-radius: 10px;
+}
+
+.produtos img{
+    width: 100%;
 }
 
 /* movimento dos quadros de produtos */

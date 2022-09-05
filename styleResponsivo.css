@@ -40,6 +40,21 @@
     .principal {
         width: 100%;
     } 
+
+    /* Tela produtos */
+
+    /* Tela contato */
+    .conteiner-principal {
+        flex-direction: column;
+    } 
+
+    .conteiner-principal form {
+        width: 100%;
+    }
+    
+    .conteiner-principal table {
+        width: 100%;
+    }                                                                                                                   
 }
 
 /* Tablet */
@@ -82,7 +97,23 @@
 
     .principal {
         width: 100%;
-    }     
+    }
+
+    /* Tela produtos */
+
+    
+    /* Tela contato */
+    .conteiner-principal {
+        flex-direction: column;
+    }
+
+    .conteiner-principal form {
+        width: 100%;
+    }
+    
+    .conteiner-principal table {
+        width: 100%;
+    }  
 }
 
 /* Notebook */
@@ -107,7 +138,15 @@
 
     .itens {
         font-size: 2em;
-    }   
+    } 
+    
+    /* Tela produtos */
+
+    
+    /* Tela contato */
+    .conteiner-principal {
+        flex-direction: row;
+    }
 }
 
 /* Tela grande */
@@ -137,6 +176,14 @@
     
     .principal {
         width: 940px; 
+    }
+
+    /* Tela produtos */
+
+
+    /* Tela contato */
+    .conteiner-principal {
+        flex-direction: row;
     }
 }
 
