@@ -1,50 +1,3 @@
-body{
-    font-family: 'Montserrat', sans-serif;
-}
-
-/* Fundo do cabeçalho */
-header {
-    background: #BBBBBB;
-    padding: 10px 0;
-}
-
-/* Informações do cabeçalho */
-.caixa {
-    /* position: relative;
-    width: 100%;
-    margin: 0 auto; */
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-/* Estilo do Menu */
-/* nav { */
-    /* position: absolute;
-    top: 110px;
-    right: 0; */
-    /* justify-content: end;
-    background-color: #000000; */
-/* } */
-
-nav li {
-    display: inline;
-    margin: 0 0 0 15px;
-}
-
-nav a {
-    text-transform: uppercase;
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: bold;
-    color: #000000;
-}
-
-nav a:hover {
-    color:#C78C19;
-    text-decoration: underline;
-}
-
 /* Formulario */
 main {
     width: 940px;
@@ -54,12 +7,14 @@ main {
 main form {
     margin: 40px 0;
 }
+
     /* Quebra de linha do formulario */
 main form label, form legend {
     display: block;
     font-size: 20px;
     margin: 0 0 10px;
 }
+
     /* Tamanho da caixa do input / Configura a área das perguntas*/
 .input-padrao {
     display: block;
@@ -131,17 +86,4 @@ td, th {
 .conteiner-principal {
     display: flex;
     justify-content: center;
-}
-
-/* Rodapé */
-footer {
-    background: url("./Imagens/bg.jpg");
-    text-align: center;
-    padding: 10px 0;
-}
-
-.rodape {
-    color: #ffffff;
-    font-size: 13px;
-    margin: 20px 0 0 0;
 }
